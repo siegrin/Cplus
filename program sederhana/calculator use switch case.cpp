@@ -20,13 +20,16 @@ int main()
 	{
 		case '+':
 		hasil = a + b;
-		cout << hasil << endl;
+		break;
 		case '-':
 		hasil = a - b;
+		break;
 		case '/':
 		hasil = a / b;
+		break;
 		case '*':
 		hasil = a * b;
+		break;
 	}
 	cout << "=" << hasil << endl;
 	cout << "Program Selesei" << endl;
