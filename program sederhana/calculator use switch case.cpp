@@ -23,18 +23,14 @@ int main()
 		cout << hasil << endl;
 		case '-':
 		hasil = a - b;
-		cout << hasil << endl;
 		case '/':
 		hasil = a / b;
-		cout << hasil << endl;
 		case '*':
 		hasil = a * b;
-		cout << "=" << hasil << endl;
 	}
-	
+	cout << "=" << hasil << endl;
 	cout << "Program Selesei" << endl;
 
 	cin.get();
 	return 0;
 }
- 
