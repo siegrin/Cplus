@@ -4,26 +4,26 @@ using namespace std;
 int main()
 {
   float a,b,hasil;
-  char arimatika;
+  char aritmatika;
   cout << "SELAMAT DATANG DI PROGRAM CALCULATOR\n";
   
   cout << "Masukan nilai pertama: ";
   cin >> a;
-  cout << "Masukan operator +,-,/,*: ;
-  cin >> arimatika;
+  cout << "Masukan operator +,-,/,*: ";
+  cin >> aritmatika;
   cout << "Masukan nilai kedua: ";
   cin >> b;
   
   cout << "Hasil perhitungan: ";
   cout << a << aritmatika << b << endl;
  
-  if (arimatika == '+') {
+  if (aritmatika == '+') {
 		hasil = a + b;
-	} else if (arimatika == '-') {
+	} else if (aritmatika == '-') {
 		hasil = a - b;
-	} else if (arimatika == '/') {
+	} else if (aritmatika == '/') {
 		hasil = a / b;
-	} else if (arimatika == '*') {
+	} else if (aritmatika == '*') {
 		hasil = a * b;
 	} else {
 		cout << " tidak ada nilai";
@@ -31,5 +31,4 @@ int main()
 	cout << "=" << hasil << endl;
 	cin.get();
 	return 0;
-}
 }
